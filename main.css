@@ -10,7 +10,7 @@ background-color:rgb(214, 205, 205);
 .first-image{
   position: relative;
   background:cover;
-  display: flex;
+ 
 }
 
 .Logo {
@@ -62,6 +62,7 @@ cursor:pointer;
 }
 .fouth-images{
   margin:80px;
+
 }
 .fifth-images{
   position: relative;
@@ -77,15 +78,24 @@ cursor:pointer;
  align-items:center;
 }
 
-#design{
+#design, #service, #product{
   display:none;
 }
-#service{
-  display:none;
+
+.cards{
+  display: flex;
+ width: 400px;
+ padding-bottom:5px;
+ border-radius:6px;
+ overflow: hidden;
 }
-#product
-{
-   display:none;
+.card{
+  position: relative;
+  width: 400px;
+  padding: bottom 50px;
+  box-shadow:0 21px 35px burlywood;
+  border-radius:6px;
+  overflow: hidden;
 }
 ul {
   list-style-type: none;
