@@ -10,7 +10,7 @@ background-color:rgb(214, 205, 205);
 .first-image{
   position: relative;
   background:cover;
- 
+  display: flex;
 }
 
 .Logo {
@@ -61,16 +61,15 @@ justify-content: space-between;
 cursor:pointer;
 }
 .fouth-images{
+  margin:80px;
   display: inline;
- 
-  
- 
- 
 
 }
 .fifth-images{
   position: relative;
+  padding-top:10px;
 }
+
 .input{
    position: absolute;
    top: 30%;
@@ -78,63 +77,20 @@ cursor:pointer;
   transform: translate(-50%, -50%); 
 }
 .social-icons{
-  margin: 40px;
- align-items:center;
+  padding-top:10px;
+  margin:10px;
+  width:auto;
 }
 
-#design, #service, #product{
+#design{
   display:none;
 }
-.card .more-btn{
-  width:100px;
-  height:100px;
-  background-color:#dbd6d0;
-  border-radius:50%;
-  position: absolute;
-  bottom:60px;
-  left: 0;
-  right:0;
-  margin:0 auto;
-  text-align: center;
-  cursor:pointer;
-  z-index:9;
-  transition: all ease 0.5s;
-  
-}
-  .card .more-btn:hover{
-background-color: darkseagreen;
-
-  }
-
-
-.cards{
-  display: flex;
- width: 390px;
- padding-bottom:5px;
- border-radius:6px;
- overflow: hidden;
-}
-.card{
-  position: relative;
-  width: 400px;
-  padding: bottom 50px;
-  box-shadow:0 21px 35px burlywood;
-  border-radius:6px;
-  overflow: hidden;
-}
-.card .text{
-  padding:15px;
-}
-.card p{
-  font-size:16px;
-  line-height:30px;
-}
-.card h3{
-  font-size:32px;
-  margin-bottom:20px;
-}
-.text{
+#service{
   display:none;
+}
+#product
+{
+   display:none;
 }
 ul {
   list-style-type: none;
