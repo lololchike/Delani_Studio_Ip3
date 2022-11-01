@@ -61,8 +61,10 @@ display: flex;
 justify-content: space-between;
 cursor:pointer;
 }
-.third-image:hover{
-
+button:hover{
+ background-color:transparent;
+    padding: 10px;
+    color: red;
 }
 .fouth-images{
   margin:80px;
