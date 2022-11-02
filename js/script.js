@@ -1,16 +1,16 @@
 
 $(document).ready(function () {
-    $("#btn1").hover(function () {
-        $("#design").show();
-    });
-    $("#btn2").hover(function () {
-        $("#service").show();
-    });
-    $("#btn3").hover(function () {
-        $("#product").show();
-    });
 
-        
+    $("#btn1").mouseenter( 'hover',function () {
+        $("#design").toggle();
+    });
+    $("#btn2").mouseenter( 'hover',function () {
+        $("#service").toggle();
+    });
+    $("#btn3").mouseenter( 'hover',function () {
+        $("#product").toggle();
+    });
+     
     });
 
 
