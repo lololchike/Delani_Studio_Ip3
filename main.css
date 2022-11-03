@@ -1,3 +1,4 @@
+;
 #container{
 border: 5px solid rgb(32, 21, 115);
  padding: 5px;
@@ -49,10 +50,12 @@ h2{
   text-align: center;
   display: block;
 }
-.name,.email{
+.form-floating{
+  position: absolute;
   text-align: center;
-  margin: 30px;
-  padding: 5px;
+  top:10%;
+  right:30%;
+  background-color:transparent;
  
 }
 
@@ -64,14 +67,20 @@ grid-template-columns:20% 20% 20%;
 }
 
 
-.fouth-images{
-  margin:80px;
-  display: inline;
-
+.portfolio{
+  
+    display: inline;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 70vw;
+    margin: 30px auto;
+    padding: 5px
 }
+
+
 .fifth-images{
   position: relative;
-  padding-top:10px;
+  padding-top:20px;
 }
 
 .input{
@@ -109,13 +118,13 @@ li{
   text-decoration: none;
 }
 button {
-  width:50px;
+  width:40px;
   height: 30px;
-  padding: 10px;
+  padding:15px;
   background-color:transparent;
   border-radius:50%;
   position:absolute;
-  margin: 15px;
+  margin:20px;
   line-height: 10px;
   cursor: pointer;
   z-index:9;
@@ -124,14 +133,11 @@ button {
   display:grid;
 justify-content: space-between;
 grid-template-columns:20% 20% 20%;
-  top: 78rem;
+  top: 77rem;
+  
 color: antiquewhite;
 }
-button:hover{
- background-color:transparent;
-    padding: 10px;
-    color: red;
-}
+
 
 
   

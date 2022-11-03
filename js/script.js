@@ -1,14 +1,37 @@
 
 $(document).ready(function () {
 
-    $("#btn1").mouseenter( 'hover',function () {
-        $("#design").toggle();
+    $(".i-design").mouseenter('hover',function () {
+      $(".i-design").hide();
+      $("#design").toggle();
+        $("#design").show();
     });
-    $("#btn2").mouseenter( 'hover',function () {
-        $("#service").toggle();
+     $("#design").mouseenter("hover", function () {
+       $("#design").hide();
+       $(".i-design").toggle();
+       $(".i-design").show();
+     });
+    
+    
+    $(".i-service").mouseenter("hover", function () {
+      $(".i-service").hide();
+      $("#service").toggle();
+      $("#service").show();
     });
-    $("#btn3").mouseenter( 'hover',function () {
-        $("#product").toggle();
+    $("#service").mouseenter("hover", function () {
+      $("#service").hide();
+      $(".i-service").toggle();
+      $(".i-service").show();
+    });
+    $(".i-product").mouseenter("hover", function () {
+      $(".i-product").hide();
+      $("#product").toggle();
+      $("#product").show();
+    });
+    $("#product").mouseenter("hover", function () {
+      $("#product").hide();
+      $(".i-product").toggle();
+      $(".i-product").show();
     });
      
     });
