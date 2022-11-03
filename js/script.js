@@ -12,7 +12,6 @@ $(document).ready(function () {
        $(".i-design").show();
      });
     
-    
     $(".i-service").mouseenter("hover", function () {
       $(".i-service").hide();
       $("#service").toggle();
@@ -33,6 +32,22 @@ $(document).ready(function () {
       $(".i-product").toggle();
       $(".i-product").show();
     });
+
+
+
+
+     $(".portfolio").mouseenter("hover", function () {
+    $(".portfolio").show();
+       $("#h1").toggle();
+       $("#h1").show();
+     });
+     $("#h1").mouseenter("hover", function () {
+       $("#h1").hide();
+       $(".portfolio").toggle();
+       $(".portfolio").show();
+     });
+
+
 });
     $(document).ready(function () {
       $(".text").hover(
@@ -41,8 +56,18 @@ $(document).ready(function () {
         },
         function () {
           $(this).animate({ opacity: "0" });
-        }
-      );
+          });
+        
+
+        
+         });
+  $(document).ready(function(){
+      $('.text').hover(function () {
+      $(this).animate({opacity:'1'});
+      },
+      function () {
+      $(this).animate({opacity:'0'});
+  })
     });
 
 
