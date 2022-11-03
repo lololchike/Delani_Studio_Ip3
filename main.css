@@ -1,14 +1,13 @@
 ;
-#container{
-border: 5px solid rgb(32, 21, 115);
- padding: 5px;
- border-radius:5px;
- box-sizing: border-box;
- margin:1rem;
-align-items: center;
-background-color:rgb(214, 205, 205);
-
+body{
+margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  background-color: rgb(111, 106, 106);
 }
+
 .first-image{
   position: relative;
   background:cover;
@@ -36,14 +35,20 @@ background-color:rgb(214, 205, 205);
  .second-image{
 position: relative;
 }
+img {
+  vertical-align: middle;
+  border-style: none;
+}
 .services{
    position: absolute;
   top: 30%;
-  left: 70px;
+  left:50px;
   color: antiquewhite; 
 }
 h2{
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
 }
 
 .contact-us{
@@ -79,15 +84,31 @@ grid-template-columns:20% 20% 20%;
 
 
 .fifth-images{
+  
   position: relative;
-  padding-top:20px;
+  width: 100%;
+  padding-top: 15px;
+  
 }
 
-.input{
-   position: absolute;
-   top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%); 
+.container-fluid{
+  position: absolute;
+   width: 50%;
+  padding-right: 30px;
+  top:10%;
+  left:20%;
+   
+}
+.form-control{
+ transition: none;
+   color: transparent;
+  text-shadow: 0 0 0 #495057;
+    display: block;
+  width: 100%;
+}
+textarea {
+  overflow: auto;
+  resize: vertical;
 }
 .social-icons{
   padding-top:10px;
@@ -118,6 +139,8 @@ li{
   text-decoration: none;
 }
 button {
+   border-radius: 0;
+    overflow: visible;
   width:40px;
   height: 30px;
   padding:15px;
@@ -127,7 +150,6 @@ button {
   margin:20px;
   line-height: 10px;
   cursor: pointer;
-  z-index:9;
   font:size 10px;
   transition: all ease 0.5s;
   display:grid;
@@ -137,6 +159,7 @@ grid-template-columns:20% 20% 20%;
   
 color: antiquewhite;
 }
+
 
 
 
