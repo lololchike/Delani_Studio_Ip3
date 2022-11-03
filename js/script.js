@@ -45,6 +45,7 @@ $(document).ready(function () {
        $(".project1").hide();
        $(".work1").toggle();
        $(".work1").show();
+    
      });
     
 $(".work2").mouseenter("hover", function () {
