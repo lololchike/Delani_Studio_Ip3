@@ -86,15 +86,6 @@ grid-template-columns:20% 20% 20%;
 }
 
 
-.portfolio{
-  
-    display: inline;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: 90vw;
-    margin: 30px auto;
-    padding: 20px
-}
 
 
 .fifth-images{
@@ -155,6 +146,7 @@ li{
    
 }
 button {
+  opacity:0;
    border-radius: 0;
     overflow: visible;
   width:2px;
@@ -194,10 +186,142 @@ height:50rem;
     font-style: normal;
     line-height: initial;
     font-stretch: normal;}
-    .project1 ,.project2 ,.project3 ,.project4 ,.project5 ,.project6 ,.project7 ,.project8{
-      display: none;
-    }
 
+    .portfolio{
+   display: flex;
+flex-wrap: wrap;
+ align-items: center;
+margin-left:5%;
+ margin-right:5%;
+ row-gap:20px;
+ gap: 30px;
+ padding: top 50px;;}
+ .container1 ,.container2,.container3 ,.container4 ,.container5 ,.container6 ,.container7 ,.container8{
+  position: relative;
+ }
+
+
+.project1{
+    margin:50px;
+ padding: 120px;
+  height:30px;
+  background-color: white;
+  position:absolute;
+  top: -5%;
+  border-radius:5px;
+  border: 1px solid white;
+width: 90px;
+ background-color:white;
+display: none;
+
+}
+.project2{
+    margin:50px;
+ padding: 120px;
+  height:30px;
+  background-color: white;
+  position:absolute;
+  top: -5%;
+  right: 5%;
+  border-radius:5px;
+  border: 1px solid white;
+width: 90px;
+ background-color:white;
+display: none;
+
+}
+.project3{
+  margin:50px;
+ padding: 120px;
+  height:30px;
+  background-color: white;
+  position:absolute;
+  top:-6%;
+  border-radius:5px;
+  border: 1px solid white;
+width: 150px;
+ background-color:white;
+display:none;
+}
+
+.project4{
+    margin:50px;
+ padding: 120px;
+  height:30px;
+  background-color: white;
+  position:absolute;
+  top: -6%;
+  right: 5%;
+  border-radius:5px;
+  border: 1px solid white;
+width: 150px;
+ background-color:white;
+display:none;
+}
+.project5{
+   margin:50px;
+ padding: 120px;
+  height:30px;
+  background-color: white;
+  position:absolute;
+  top:-6%;
+  border-radius:5px;
+  border: 1px solid white;
+width: 150px;
+ background-color:white;
+display:none;
+}
+.project6{
+    margin:50px;
+ padding: 120px;
+  height:30px;;
+  background-color: white;
+  position:absolute;
+  top: 5%;
+  right: 5%;
+  border-radius:5px;
+  border: 1px solid white;
+width: 150px;
+ background-color:white;
+display:none;
+}
+.project7{
+   margin:50px;
+ padding: 120px;
+  height:30px;
+  background-color: white;
+  position:absolute;
+  top: -5%;
+  border-radius:5px;
+  border: 1px solid white;
+width: 150px;
+ background-color:white;
+display:none;
+}
+
+.project8{
+   margin:50px;
+ padding: 120px;
+  height:30px;
+  background-color: white;
+  position:absolute;
+  top: -5%;
+  right: 5%;
+  border-radius:5px;
+  border: 1px solid black;
+width: 150px;
+ background-color:white;
+display:none;
+}
+.container1,.container2,.container3,.container4,.container5,.container6,.container7,.container8{
+font-family: "Erica One rev=2";
+    font-weight: 400;
+    font-style: normal;
+    line-height: initial;
+    font-stretch: normal;
+    font-size:2rem;  
+    cursor: pointer;
+}
 
 
 
