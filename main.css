@@ -187,142 +187,98 @@ height:50rem;
     line-height: initial;
     font-stretch: normal;}
 
-    .portfolio{
-   display: flex;
-flex-wrap: wrap;
- align-items: center;
-margin-left:5%;
- margin-right:5%;
- row-gap:20px;
- gap: 30px;
- padding: top 50px;;}
- .container1 ,.container2,.container3 ,.container4 ,.container5 ,.container6 ,.container7 ,.container8{
-  position: relative;
- }
-
-
-.project1{
-    margin:50px;
- padding: 120px;
-  height:30px;
-  background-color: white;
-  position:absolute;
-  top: -5%;
-  border-radius:5px;
-  border: 1px solid white;
-width: 90px;
- background-color:white;
-display: none;
-
-}
-.project2{
-    margin:50px;
- padding: 120px;
-  height:30px;
-  background-color: white;
-  position:absolute;
-  top: -5%;
-  right: 5%;
-  border-radius:5px;
-  border: 1px solid white;
-width: 90px;
- background-color:white;
-display: none;
-
-}
-.project3{
-  margin:50px;
- padding: 120px;
-  height:30px;
-  background-color: white;
-  position:absolute;
-  top:-6%;
-  border-radius:5px;
-  border: 1px solid white;
-width: 150px;
- background-color:white;
-display:none;
-}
-
-.project4{
-    margin:50px;
- padding: 120px;
-  height:30px;
-  background-color: white;
-  position:absolute;
-  top: -6%;
-  right: 5%;
-  border-radius:5px;
-  border: 1px solid white;
-width: 150px;
- background-color:white;
-display:none;
-}
-.project5{
+   .onClickImage1{
+    width:200px;
+    height: 200px;
+    background-size:cover;
+    background-image:url(./Images/portfolio/work1.jpg);
+    display:inline-block;
+    border-radius:5px;
+    position: relative;
+    cursor: pointer;
+   }
+   .onClickImage2{
+    width:200px;
+    height: 200px;
+    background-size:cover;
+    background-image:url(./Images/portfolio/work2.jpg);
+    display:inline-block;
+    border-radius:5px;
+    position: relative;
+    cursor: pointer;
+   }
+   .onClickImage3{
+    width:200px;
+    height: 200px;
+    background-size:cover;
+    background-image:url(./Images/portfolio/work3.jpg);
+    display:inline-block;
+    border-radius:5px;
+    position: relative;
+    cursor: pointer;
+   }
+   .onClickImage4{
+    width:200px;
+    height: 200px;
+    background-size:cover;
+    background-image:url(./Images/portfolio/work4.jpg);
+    display:inline-block;
+    border-radius:5px;
+    position: relative;
+    cursor: pointer;
+   }
+   .onClickImage5{
+    width:200px;
+    height: 200px;
+    background-size:cover;
+    background-image:url(./Images/portfolio/work5.jpg);
+    display:inline-block;
+    border-radius:5px;
+    position: relative;
+    cursor: pointer;
+   }
+   .onClickImage6{
+    width:200px;
+    height: 200px;
+    background-size:cover;
+    background-image:url(./Images/portfolio/work6.jpg);
+    display:inline-block;
+    border-radius:5px;
+    position: relative;
+    cursor: pointer;
+   }
+   .onClickImage7{
+    width:200px;
+    height: 200px;
+    background-size:cover;
+    background-image:url(./Images/portfolio/work7.jpg);
+    display:inline-block;
+    border-radius:5px;
+    position: relative;
+    cursor: pointer;
+   }
+   .onClickImage8{
+    width:200px;
+    height: 200px;
+    background-size:cover;
+    background-image:url(./Images/portfolio/work8.jpg);
+    display:inline-block;
+    border-radius:5px;
+    position: relative;
+    cursor: pointer;
+   }
+    .project1, .project2,.project3,.project4,.project5,.project6,.project7,.project8{
    margin:50px;
- padding: 120px;
+ padding: 60px;
   height:30px;
   background-color: white;
   position:absolute;
-  top:-6%;
-  border-radius:5px;
-  border: 1px solid white;
-width: 150px;
- background-color:white;
-display:none;
-}
-.project6{
-    margin:50px;
- padding: 120px;
-  height:30px;;
-  background-color: white;
-  position:absolute;
-  top: 5%;
-  right: 5%;
-  border-radius:5px;
-  border: 1px solid white;
-width: 150px;
- background-color:white;
-display:none;
-}
-.project7{
-   margin:50px;
- padding: 120px;
-  height:30px;
-  background-color: white;
-  position:absolute;
-  top: -5%;
-  border-radius:5px;
-  border: 1px solid white;
-width: 150px;
- background-color:white;
-display:none;
-}
-
-.project8{
-   margin:50px;
- padding: 120px;
-  height:30px;
-  background-color: white;
-  position:absolute;
-  top: -5%;
-  right: 5%;
+  top: -8%;
+  right:-20%;
   border-radius:5px;
   border: 1px solid black;
-width: 150px;
  background-color:white;
-display:none;
-}
-.container1,.container2,.container3,.container4,.container5,.container6,.container7,.container8{
-font-family: "Erica One rev=2";
-    font-weight: 400;
-    font-style: normal;
-    line-height: initial;
-    font-stretch: normal;
-    font-size:2rem;  
-    cursor: pointer;
-}
-
-
-
-  
+ transition:3s;
+ display:none;
+ 
+ }
