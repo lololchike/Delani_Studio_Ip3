@@ -1,4 +1,3 @@
-
 $(document).ready(function () {
 
     $(".i-design").mouseenter('hover',function () {
@@ -41,7 +40,7 @@ $(document).ready(function () {
        $(".project1").toggle();
        $(".project1").show();
      });
-     $(".project1").mouseenter("hover", function () {
+     $(".project1").mouseleave("hover", function () {
        $(".project1").hide();
        $(".onClickImage1").toggle();
        $(".onClickImage1").show();
@@ -138,5 +137,3 @@ $(".project2").mouseenter("hover", function () {
         event.preventDefault();
       });
     });
-
-
